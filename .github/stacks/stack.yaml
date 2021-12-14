@@ -1,5 +1,5 @@
 name: sample-stack-test-template
-description: Uncomment and modify the sections to configure your own amazing stack.
+description: Uncomment and modify the sections to configure your own stack.
 branding:
   icon: bell # https://feathericons.com/
   color: blue # hex accepted
