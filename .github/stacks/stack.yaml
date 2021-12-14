@@ -41,16 +41,16 @@ branding:
         - sample_topic_2
       
   # Branch Protection rules
-  # branches:
-  #   - name: release_v? #branch name or pattern you want to protect
-  #     parameters:
-  #       enforce-admins: true / false
-  #       required-pull-request-reviews:
-  #         dismiss-stale-reviews: true / false
-  #         require-code-owner-reviews: true / false
-  #         required-approving-review-count: 1 # integer
-  #       allow-force-pushes: true / false
-  #       allow-deletions: true / false
+  branches:
+    - name: release_v? #branch name or pattern you want to protect
+      parameters:
+        enforce-admins: true / false
+        required-pull-request-reviews:
+          dismiss-stale-reviews: true / false
+          require-code-owner-reviews: true / false
+          required-approving-review-count: 1 # integer
+        allow-force-pushes: true / false
+        allow-deletions: true / false
 
   # Configure an environment
   # environments: 
@@ -77,9 +77,9 @@ branding:
 #-------------------------------------------------------------
 # GitHub Apps to be installed
 # just provide the slugs
-# github-apps:
-# - slug: sample1
-# - slug: sample2
+github-apps:
+- slug: sample1
+- slug: sample2
 
 
 #-------------------------------------------------------------
