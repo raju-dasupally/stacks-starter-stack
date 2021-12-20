@@ -1,4 +1,4 @@
-name: stacks-starter-stack
+name: raju-starter-stack
 description: Uncomment and modify the sections to configure your own stack.
 branding:
   icon: bell # https://feathericons.com/
@@ -30,7 +30,6 @@ branding:
 
 #-------------------------------------------------------------
   configs:
-    Meta data for creating the new repository
     repo-metadata:
       parameters:
         secrets: 
@@ -77,9 +76,7 @@ branding:
 #-------------------------------------------------------------
 # GitHub Apps to be installed
 # just provide the slugs
-github-apps:
-- slug: sample1
-- slug: sample2
+
 
 
 #-------------------------------------------------------------
